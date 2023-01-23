@@ -8,8 +8,8 @@ pipeline {
                 script{
                     sh ''' cd /home/user/.jenkins/workspace/sampleProject2/chennai 
                     mvn clean install -X '''
-                   
-                    
+                }
+                                     
             }
         }
     }
