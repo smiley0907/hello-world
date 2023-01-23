@@ -6,9 +6,9 @@ pipeline {
             steps {
                 echo 'Hello World'
                 script{
-                    sh 'cd /home/user/.jenkins/workspace/sampleProject2/chennai'
-                    sh ' ls -lart'
-                    sh 'mvn clean install -X'}
+                    sh ''' cd /home/user/.jenkins/workspace/sampleProject2/chennai 
+                    mvn clean install -X '''
+                   
                     
             }
         }
